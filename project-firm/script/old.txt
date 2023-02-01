@@ -1,0 +1,18 @@
+// const classToggle = (el, ...args) => args.map(e => el.classList.toggle(e));
+// for (let i = 0; i < answerCircle.length; i++) {
+//   answerCircle[i].addEventListener('click', function () {
+//     answer[i].classList.toggle('show');
+//     answerCircle[i].classList.toggle('rotate');
+//   });
+// }
+
+==========================================================
+
+// $('a.button').on('click', function () {
+//   $('div.wrapper').addClass('blur');
+//   $('.modal-wrap').addClass('active');
+// });
+// $('section i.fas').on('click', function () {
+//   $('div.wrapper').removeClass('blur');
+//   $('.modal-wrap').removeClass('active');
+// });
