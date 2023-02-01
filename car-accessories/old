@@ -1,0 +1,54 @@
+/* header img {
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}  */
+
+/* background-attachment: fixed; */
+/* 
+<img src="img/img1.jpg" alt="">  */
+
+/* var i = 1;
+var image = document.querySelector(".questions img");
+
+function nextImage() {
+  setTimeout(function () {
+    image.style.opacity = 0;
+  }, 4000);
+
+  image.src = img[i]; //Change picture
+  image.style.opacity = 100;
+
+  if (i + 1 >= img.length) {
+    i = 0;
+  } else {
+    i++;
+  }
+}
+
+function startSlideshow() {
+  image.src = img[0]; //Load first picture by default
+  image.style.opacity = 100;
+
+  //Change opacity back to 0, 1 second before changing the picture
+  setTimeout(function () {
+    image.style.opacity = 0;
+  }, 4000);
+
+  setInterval(function () {
+    nextImage();
+  }, 5000);
+}
+
+startSlideshow(); */
+
+// document.querySelector(".eur").addEventListener("click", function () {
+//   for (let i = 0; i < currencyChange.length; i++) {
+//     currencyChange[i].innerHTML = (
+//       Number(currencyChange[i].innerHTML) * 0.863
+//     ).toFixed(2);
+//     sign[i].innerHTML = "€";
+//   }
+//   currency.innerHTML = "€ EUR";
+// });

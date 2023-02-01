@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed:wght@700&family=Saira+Condensed&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <i class="fas fa-bars"></i>
+    <aside class="hidden">
+        <div class="nav">
+            <a href=""><i class="fas fa-home"></i>Home</a>
+            <a href=""><i class="fas fa-dollar-sign"></i>Prices</a>
+        </div>
+        <div class="contact">
+            <a href="" target="_blank"><i class="fas fa-envelope"></i>mail</a>
+            <a href="" target="_blank"><i class="fas fa-phone"></i>617129418</a>
+            <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i>firma</a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i>@firma</a>
+        </div>
+    </aside>
+    <nav>
+        <div>
+            <a href="" class="navigation"><i class="fas fa-home"></i>Home</a>
+            <a href="" class="navigation"><i class="fas fa-dollar-sign"></i>Prices</a>
+            <a href="" class="navigation"><i class="fas fa-phone"></i>Contact</a>
+        </div>
+        <div class="dropdown">
+            <button class="currency">$ USD</button>
+            <div class="dropdown-menu">
+                <span class="usd">$ USD</span><br>
+                <span class="eur">€ EUR</span><br>
+                <!-- 
+                <span class="gbp">£ GBP</span><br>
+                <span class="jpy">¥ JPY</span><br>
+                <span class="rub">₽ RUB</span><br> -->
+                <span class="pln">zł PLN</span>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <h1>Porsche</h1>
+    </header>
+    <main>
+        <section class="main">
+            <div class="slider">
+                <img src="img/1.jpg" alt="Cars">
+            </div>
+            <div class="answers">
+                <p><span>1.</span> Lorem ipsum dolor sit amet?<i class="fas fa-plus-circle circle"></i>
+                <h5 class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, at! Ex na
+                    doloribus
+                    ipsam recusandae nihil?</h5>
+                </p>
+                <p><span>2.</span> Oluptates blanditiis veniam?<i class="fas fa-plus-circle circle"></i>
+                <h5 class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, at! Ex na
+                    doloribus ipsam recusandae nihil?</h5>
+                </p>
+                <p><span>3.</span> Consectetur adipisicing elit?<i class="fas fa-plus-circle circle"></i>
+                <h5 class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, at! Ex na
+                    doloribus ipsam recusandae nihil?</h5>
+                </p>
+                <p><span>4.</span> Pariatur hic eius nobis iure?<i class="fas fa-plus-circle circle"></i>
+                <h5 class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, at! Ex na
+                    doloribus ipsam recusandae nihil?</h5>
+                </p>
+                <p><span>5.</span> Deleniti aperiam omnis nihil nam?<i class="fas fa-plus-circle circle"></i>
+                <h5 class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, at! Ex na
+                    doloribus ipsam recusandae nihil?</h5>
+                </p>
+            </div>
+        </section>
+        <section class="best-seller">
+            <div class="up">
+                <h2>Best seller</h2>
+                <p>All best seller product are now availabe for you</p>
+            </div>
+            <table class="down">
+                <td>
+                    <div>25%</div>
+                    <a href="" target="_blank"><img src="img/best1.jpg" alt="Product"></a>
+                    <div>
+                        <h3>Steering wheel</h3>
+                        <p>Price: <span class="sign">$</span><span class="currency-change">60.00</span></p>
+                    </div>
+                </td>
+                <td>
+                    <div>10%</div>
+                    <a href="" target="_blank"><img src="img/best2.jpg" alt="Product"></a>
+                    <div>
+                        <h3>Pendent</h3>
+                        <p>Price: <span class="sign">$</span><span class="currency-change">10.00</span></p>
+                    </div>
+                </td>
+                <td>
+                    <div>50%</div>
+                    <a href="" target="_blank"><img src="img/best3.jpg" alt="Product"></a>
+                    <div>
+                        <h3>Key</h3>
+                        <p>Price: <span class="sign">$</span><span class="currency-change">35.00</span></p>
+                    </div>
+                </td>
+                <td>
+                    <div>5%</div>
+                    <a href="" target="_blank"><img src="img/best4.jpg" alt="Product"></a>
+                    <div>
+                        <h3>Smartwatch</h3>
+                        <p>Price: <span class="sign">$</span><span class="currency-change">100.00</span></p>
+                    </div>
+                </td>
+                <td>
+                    <div>30%</div>
+                    <a href="" target="_blank"><img src="img/best5.jpg" alt="Product"></a>
+                    <div><h3>Organizer</h3>
+                        <p>Price: <span class="sign">$</span><span class="currency-change">80.00</span></p>
+                    </div>
+                </td>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span class="copy">2021 Copyright:</span> <span class="author">LukaszN</span></p>
+        <p class="clock"></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
